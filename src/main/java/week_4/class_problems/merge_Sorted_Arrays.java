@@ -50,7 +50,7 @@ public class merge_Sorted_Arrays {
         for (int i = 0; i < size2; i++) {
             arr2[i] = sc.nextInt();
         }
-        prb4 obj = new prb4();
+        merge_Sorted_Arrays obj = new merge_Sorted_Arrays();
         int[] result = obj.mergeSortedArrays(arr1, arr2);
         System.out.println("Merged array:");
         System.out.print("[");
