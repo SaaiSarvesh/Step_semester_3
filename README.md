@@ -1,5 +1,30 @@
 # Step_semester_3 - Semester Progress Log
 
+## Date: 09-10-2026
+**Today's Work:**
+- Completed Week 9 / Session 9 Object-Oriented Programming (Abstraction, Inheritance, Polymorphism, and Interface-based Modular Design) exercises on the `feature/session_9` branch.
+- Implemented 5 Class Problems under `src/main/java/week_9/class_problems/`:
+  1. `GardenPlotReport`: Abstract plot area generator evaluating circular ($\pi \times r^2$), rectangular, and triangular geometric plot calculations.
+  2. `WeeklyStaffPay`: Payroll engine computing weekly remuneration for Full-Time staff (fixed salary), Hourly staff (standard + 1.5× overtime multiplier above 40 hrs), and Interns (fixed stipend).
+  3. `LibraryFineCounter`: Late fee counter calculating overdue penalties across Books (₹2/day), DVDs (₹5/day capped at ₹50), and Magazines (₹1/day).
+  4. `ElectricityBilling`: Tiered utility billing system evaluating Home connections (tiered rate for first 100 units), Shop connections (fixed surcharge), and Factory connections (minimum ₹1000 floor bill).
+  5. `TravelBookingApp`: Fare calculation engine computing mode-specific fares (Bus, Train, Flight) while encapsulating a shared ₹50 booking fee in the abstract base class.
+- Implemented 5 Category C Assignment Problems under `src/main/java/week_9/assignment_problems/`:
+  1. `MovieTicketCounter`: Cinema billing system calculating total ticket amounts across Regular (₹150), Premium (₹250), and Recliner (₹400) seats with a uniform ₹20 convenience fee per ticket.
+  2. `ParcelShippingDesk`: Courier shipping desk utilizing the `Insurable` interface to compute shipping charges and 2% declared-value insurance for Express and Fragile parcels while keeping Standard parcels uninsured.
+  3. `CollegeFeeCounter`: College fee counter leveraging a `TransportUser` interface to automatically add ₹12,000 transport fees to Day Scholars and Scholarship students without type checking.
+  4. `CityCabFareMeter`: Cab fare meter utilizing a `NightServiceable` marker interface to compute distance fares with a ₹100 minimum floor and 20% night surcharge for Sedans and SUVs while rejecting night requests for Minis.
+  5. `HomeApplianceEnergyReport`: Appliance power monitor using a `SaverModeCapable` interface to evaluate energy consumption (kWh) and costs (₹8/kWh), applying a 25% energy reduction for supported appliances (AC, Washer) and rejecting unsupported saver mode requests (Fridge, TV).
+
+**Next Session Plan:**
+- Merge `feature/session_9` into `develop` and prepare for Week 10 Object-Oriented Design and Exception Handling problem sets.
+
+**Issues Faced:**
+- Fixed branch mismatch error during `git push` by renaming the local branch from `feature/branch_8` to `feature/session_9` using `git branch -m`.
+- Resolved tracking issues with unwanted root `README.md` and compiled files on feature branches using `git rm --cached`.
+
+---
+
 ## Date: 02-10-2026
 **Today's Work:**
 - Completed Week 8 / Session 8 Object-Oriented Programming (Polymorphism, Abstract Classes, and Factory Design Pattern) exercises on the `feature/session_8` branch.
@@ -27,19 +52,19 @@
 
 ## Date: 25-09-2026
 **Today's Work:**
-- Completed Week 7 / Session 7 Java Object-Oriented Design exercises on the `feature/session_7` branch[cite: 2].
+- Completed Week 7 / Session 7 Java Object-Oriented Design exercises on the `feature/session_7` branch.
 - Implemented Class Problems under `src/main/java/week_7/class_problems/`:
-  1. `AttendanceSheet`: Class attendance manager tracking present/absent states and percentage calculations[cite: 2].
-  2. `Locker`: Encapsulated security locker managing pin verification and state locks[cite: 2].
-  3. `NameTag`: Formatter formatting name tags with clean text alignment rules[cite: 2].
-  4. `PiggyBank`: Savings container managing coin additions, total balances, and withdrawal limits[cite: 2].
+  1. `AttendanceSheet`: Class attendance manager tracking present/absent states and percentage calculations.
+  2. `Locker`: Encapsulated security locker managing pin verification and state locks.
+  3. `NameTag`: Formatter formatting name tags with clean text alignment rules.
+  4. `PiggyBank`: Savings container managing coin additions, total balances, and withdrawal limits.
 - Implemented Assignment Problems under `src/main/java/week_7/assignment_problems/`:
-  1. `Cart`: E-commerce shopping cart managing item additions, item removals, and total calculations[cite: 2].
-  2. `Character`: Game character state engine processing health, defense, and attack operations[cite: 2].
-  3. `PasswordChecker`: String security validator enforcing complexity rules and length criteria[cite: 2].
-  4. `Playlist`: Music playlist manager supporting song sequencing, skipping, and duration totals[cite: 2].
+  1. `Cart`: E-commerce shopping cart managing item additions, item removals, and total calculations.
+  2. `Character`: Game character state engine processing health, defense, and attack operations.
+  3. `PasswordChecker`: String security validator enforcing complexity rules and length criteria.
+  4. `Playlist`: Music playlist manager supporting song sequencing, skipping, and duration totals.
   5. `Scorecard`: Cricket/match scorecard tracker evaluating runs, overs, and run-rate metrics.
-  6. `TrafficLight`: Signal simulator managing light transitions and timing cycles[cite: 2].
+  6. `TrafficLight`: Signal simulator managing light transitions and timing cycles.
 
 **Next Session Plan:**
 - Merge `feature/session_7` updates into `develop` and transition to Week 8 Factory Design Pattern and Polymorphism problem sets.
@@ -51,25 +76,25 @@
 
 ## Date: 18-09-2026
 **Today's Work:**
-- Completed Week 6 / Session 6 Java Encapsulation, State Management, and Domain Modeling exercises on the `feature/session_6` branch[cite: 3].
+- Completed Week 6 / Session 6 Java Encapsulation, State Management, and Domain Modeling exercises on the `feature/session_6` branch.
 - Implemented Class Problems under `src/main/java/week_6/class_problems/`:
-  1. `Course`: Course enrollment container tracking student registrations, limits, and roster updates[cite: 3].
-  2. `IdCard`: Identity card generator managing holder details, validity checks, and formatting rules[cite: 3].
-  3. `MessWallet`: Campus mess balance tracker processing recharges, meal deductions, and balance alerts[cite: 3].
-  4. `PlacementRecord`: Campus placement tracker managing student eligibility, interview rounds, and offers[cite: 3].
-  5. `Student`: Encapsulated student profile managing academic credentials and GPA evaluation[cite: 3].
+  1. `Course`: Course enrollment container tracking student registrations, limits, and roster updates.
+  2. `IdCard`: Identity card generator managing holder details, validity checks, and formatting rules.
+  3. `MessWallet`: Campus mess balance tracker processing recharges, meal deductions, and balance alerts.
+  4. `PlacementRecord`: Campus placement tracker managing student eligibility, interview rounds, and offers.
+  5. `Student`: Encapsulated student profile managing academic credentials and GPA evaluation.
 - Implemented Assignment Problems under `src/main/java/week_6/assignment_problems/`:
-  1. `BookInventory`: Library inventory engine tracking availability status, reservations, and stock levels[cite: 3].
-  2. `CompanyEmployee`: Corporate employee record system handling role designations and salary structures[cite: 3].
-  3. `Employee`: Core employee model encapsulating personal data and department assignments[cite: 3].
-  4. `HallTicket`: Examination hall ticket generator verifying course eligibility and seating details[cite: 3].
-  5. `PayrollAccount`: Payroll calculator processing gross compensation, tax deductions, and net payouts[cite: 3].
+  1. `BookInventory`: Library inventory engine tracking availability status, reservations, and stock levels.
+  2. `CompanyEmployee`: Corporate employee record system handling role designations and salary structures.
+  3. `Employee`: Core employee model encapsulating personal data and department assignments.
+  4. `HallTicket`: Examination hall ticket generator verifying course eligibility and seating details.
+  5. `PayrollAccount`: Payroll calculator processing gross compensation, tax deductions, and net payouts.
 
 **Next Session Plan:**
-- Advance to Week 7 exercises on object interactions, modular components, and encapsulated domain models[cite: 2].
+- Advance to Week 7 exercises on object interactions, modular components, and encapsulated domain models.
 
 **Issues Faced:**
-- Corrected state mutation bugs in `MessWallet` where balance checks were evaluated post-deduction instead of pre-deduction[cite: 3].
+- Corrected state mutation bugs in `MessWallet` where balance checks were evaluated post-deduction instead of pre-deduction.
 
 ---
 
@@ -90,7 +115,7 @@
   5. `FantasyDraftEngine`: Encapsulated player object filtering via overloaded `isDraftable()` methods and sorted draft lists using `Comparable<Player>` interface.
 
 **Next Session Plan:**
-- Merge `feature/session_5` updates and prepare for Week 6 / Session 6 problem sets[cite: 3].
+- Merge `feature/session_5` updates and prepare for Week 6 / Session 6 problem sets.
 
 **Issues Faced:**
 - Resolved `javac` command path issues by ensuring file paths (`.java`) are used for compilation and package notation (`.`) is used for execution.
@@ -100,49 +125,49 @@
 
 ## Date: 04-09-2026
 **Today's Work:**
-- Completed Week 4 / Session 4 Java algorithm optimization and array manipulation exercises on the `feature/session_4` branch[cite: 4, 5].
+- Completed Week 4 / Session 4 Java algorithm optimization and array manipulation exercises on the `feature/session_4` branch.
 - Implemented Class Problems under `src/main/java/week_4/class_problems/`:
-  1. `Duplicate`: Array duplicate element identification using frequency scanning[cite: 5].
-  2. `MaxProfit`: Stock trading single-pass algorithm evaluating maximum profit potential ($O(N)$ time complexity)[cite: 5].
-  3. `TwoSum`: Two-sum index locator using complementary target lookup[cite: 5].
-  4. `merge_Sorted_Arrays`: Two-pointer merge algorithm unifying sorted integer arrays[cite: 5].
-  5. `rotate_Array`: In-place array rotation algorithm shifting elements by $k$ positions[cite: 5].
+  1. `Duplicate`: Array duplicate element identification using frequency scanning.
+  2. `MaxProfit`: Stock trading single-pass algorithm evaluating maximum profit potential ($O(N)$ time complexity).
+  3. `TwoSum`: Two-sum index locator using complementary target lookup.
+  4. `merge_Sorted_Arrays`: Two-pointer merge algorithm unifying sorted integer arrays.
+  5. `rotate_Array`: In-place array rotation algorithm shifting elements by $k$ positions.
 - Implemented Assignment Problems under `src/main/java/week_4/assignment_problems/`:
-  1. `FindMinRotatedArray`: Binary search algorithm ($O(\log N)$) finding minimum element in rotated sorted array[cite: 4].
-  2. `MaxSubarray`: Maximum subarray sum evaluation using Kadane's algorithm ($O(N)$ time complexity)[cite: 4].
-  3. `Product_ExceptSelf`: Array product transformation excluding current element without division operations[cite: 4].
-  4. `SubarraysSumEqualsK`: Prefix sum hashing technique counting contiguous subarrays matching target sum $K$[cite: 4].
-  5. `ThreeSum`: Three-pointer search finding unique triplets summing to zero[cite: 4].
+  1. `FindMinRotatedArray`: Binary search algorithm ($O(\log N)$) finding minimum element in rotated sorted array.
+  2. `MaxSubarray`: Maximum subarray sum evaluation using Kadane's algorithm ($O(N)$ time complexity).
+  3. `Product_ExceptSelf`: Array product transformation excluding current element without division operations.
+  4. `SubarraysSumEqualsK`: Prefix sum hashing technique counting contiguous subarrays matching target sum $K$.
+  5. `ThreeSum`: Three-pointer search finding unique triplets summing to zero.
 
 **Next Session Plan:**
 - Advance to Week 5 array manipulation and ranking algorithm exercises.
 
 **Issues Faced:**
-- Untracked compiled `.class` binaries (`FindMinRotatedArray.class`, `MaxSubarray.class`, etc.) from git cache to maintain clean repository source tracking[cite: 4, 5].
+- Untracked compiled `.class` binaries (`FindMinRotatedArray.class`, `MaxSubarray.class`, etc.) from git cache to maintain clean repository source tracking.
 
 ---
 
 ## Date: 28-08-2026
 **Today's Work:**
-- Completed Week 3 / Session 3 control flow, condition evaluation, and pattern printing exercises on the `feature/session_3` branch[cite: 6].
+- Completed Week 3 / Session 3 control flow, condition evaluation, and pattern printing exercises on the `feature/session_3` branch.
 - Implemented Assignment Problems under `src/main/java/week_3/assignment_problems/`:
-  1. `P1._VotingEligibilityChecker`: Age and citizenship eligibility checker using conditional statements[cite: 6].
-  2. `P1_NumberPyramidPatternPrinter`: Nested loop algorithm generating structured number pyramid patterns[cite: 6].
-  3. `P2_ATMPINRetrySystem`: Loop-based PIN authorization guard tracking failed retry limits[cite: 6].
-  4. `P5_DayNameFromNumber`: Conditional switch evaluator mapping numeric day inputs to day names[cite: 6].
-  5. `P5_PrimeNumberChecker`: Primality checking algorithm utilizing $O(\sqrt{N})$ loop limits[cite: 6].
+  1. `P1._VotingEligibilityChecker`: Age and citizenship eligibility checker using conditional statements.
+  2. `P1_NumberPyramidPatternPrinter`: Nested loop algorithm generating structured number pyramid patterns.
+  3. `P2_ATMPINRetrySystem`: Loop-based PIN authorization guard tracking failed retry limits.
+  4. `P5_DayNameFromNumber`: Conditional switch evaluator mapping numeric day inputs to day names.
+  5. `P5_PrimeNumberChecker`: Primality checking algorithm utilizing $O(\sqrt{N})$ loop limits.
 
 **Next Session Plan:**
-- Create `feature/session_4` branch from `develop` and start array manipulation problem sets[cite: 4, 5].
+- Create `feature/session_4` branch from `develop` and start array manipulation problem sets.
 
 **Issues Faced:**
-- Fixed edge-case input handling in loop termination conditions for PIN retry attempts[cite: 6].
+- Fixed edge-case input handling in loop termination conditions for PIN retry attempts.
 
 ---
 
 ## Date: 22-08-2026
 **Today's Work:**
-- Set up the repository branching structure (`main` for documentation, `develop` for the project skeleton, and `feature/session_1` for Session 1 work)[cite: 4, 6].
+- Set up the repository branching structure (`main` for documentation, `develop` for the project skeleton, and `feature/session_1` for Session 1 work).
 - Solved and verified Week 1 class and assignment problems inside `src/main/java/week_1/`.
 - Verified local Java environment compilation using Command Prompt (`javac` and `java -cp`).
 
@@ -157,6 +182,6 @@
 ## Repository Workflow Summary
 | Branch | Purpose | Allowed Content |
 | :--- | :--- | :--- |
-| **main** | Daily progress log and semester documentation | `README.md` only[cite: 2, 4, 6] |
-| **develop** | Empty project skeleton | Project structure only (no logic/code)[cite: 2, 4, 6] |
-| **feature/session_n** | Daily coding work | Topic package containing `class_problems` and `assignment_problems`[cite: 2, 3, 4, 6] |
+| **main** | Daily progress log and semester documentation | `README.md` only |
+| **develop** | Empty project skeleton | Project structure only (no logic/code) |
+| **feature/session_n** | Daily coding work | Topic package containing `class_problems` and `assignment_problems` |
