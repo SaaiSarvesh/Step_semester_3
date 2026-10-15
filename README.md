@@ -17,8 +17,9 @@ Step_semester_3 - Semester Progress Log
 - Implemented Assignment Problems under `src/main/java/week_10/`:
   1. `assignment_problem_01/BusiestBusRow`: 2D grid bus row total analyzer finding the busiest row with strict tie-breaking.
   2. `assignment_problem_02/ClassAttendanceTracker`: Single-pass attendance analyzer tracking present days and longest unbroken streaks.
-  3. `assignment_problem_04/ExamScoreBandCounter`: Binary search lower and upper bound algorithm counting scores within a band $[low, high]$ in $O(\log N)$ time.
-  4. `assignment_problem_05/SecondBestScore`: Single-pass distinct second-highest score finder without array sorting.
+  3. `assignment_problem_03/DutyRosterRotation`: Array rotation algorithm utilizing modulo arithmetic (`k % n`) to shift roster names efficiently in $O(N)$ time.
+  4. `assignment_problem_04/ExamScoreBandCounter`: Binary search lower and upper bound algorithm counting scores within a band $[low, high]$ in $O(\log N)$ time.
+  5. `assignment_problem_05/SecondBestScore`: Single-pass distinct second-highest score finder without array sorting.
 
 **Next Session Plan:**
 - Merge `feature/session_10` into `develop` and prepare for Week 11 problem sets.
