@@ -1,4 +1,32 @@
-# Step_semester_3 - Semester Progress Log
+Step_semester_3 - Semester Progress Log
+
+## Date: 16-10-2026
+**Today's Work:**
+- Completed Week 10 / Session 10 Java problem sets on the `feature/session_10` branch.
+- Implemented Class Problems under `src/main/java/week_10/class_problems/`:
+  1. `VowelConsonantCounter`: Case-insensitive character scanner counting vowels and consonants.
+  2. `WordReverserAndPalindrome`: Mutable `StringBuilder` text reverser and palindrome validator.
+  3. `EvenOddCounter`: Integer list parser evaluating even and odd numbers via modulo operations.
+  4. `InPlaceArrayReversal`: Two-pointer in-place list element swapper.
+  5. `DigitSumAndReversal`: Integer digit extractor computing digit sums and mathematical reversals.
+  6. `PrimeNumberChecker`: Primality testing algorithm utilizing square root limit bounds.
+  7. `FactorialCalculation`: Non-negative integer factorial generator with zero-case handling.
+  8. `StudentGradeAssignment`: Conditional grade ladder evaluating marks out of 100.
+  9. `LeapYearDetector`: Logical year evaluation checking divisibility by 4, 100, and 400.
+  10. `StudentResultCardGenerator`: Encapsulated `Student` class calculating averages, letter grades, and uppercase name formatting.
+- Implemented Assignment Problems under `src/main/java/week_10/`:
+  1. `assignment_problem_01/BusiestBusRow`: 2D grid bus row total analyzer finding the busiest row with strict tie-breaking.
+  2. `assignment_problem_02/ClassAttendanceTracker`: Single-pass attendance analyzer tracking present days and longest unbroken streaks.
+  3. `assignment_problem_04/ExamScoreBandCounter`: Binary search lower and upper bound algorithm counting scores within a band $[low, high]$ in $O(\log N)$ time.
+  4. `assignment_problem_05/SecondBestScore`: Single-pass distinct second-highest score finder without array sorting.
+
+**Next Session Plan:**
+- Merge `feature/session_10` into `develop` and prepare for Week 11 problem sets.
+
+**Issues Faced:**
+- Resolved package scoping and classpath execution errors when running fully qualified class names from compiled target directories.
+
+---
 
 ## Date: 09-10-2026
 **Today's Work:**
