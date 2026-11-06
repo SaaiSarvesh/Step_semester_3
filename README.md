@@ -1,5 +1,34 @@
 Step_semester_3 - Semester Progress Log
 
+## Date: 06-11-2026
+**Today's Work:**
+- Completed Week 11 / Session 11 sorting algorithms and core data structures problem sets on the `feature/session_11` branch.
+- Implemented Class Problems under `src/main/java/week_11/class_problems/`:
+  1. `LibraryCatalogLookup`: Optimized binary search ISBN lookup in a sorted catalog ($O(\log N)$ time, $O(1)$ space).
+  2. `WarehouseGridScan`: 2D warehouse grid analyzer computing total item counts and max-bin coordinate tracking.
+  3. `TransactionDuplicateCheck`: High-performance transaction ID duplicate validator using hash sets ($O(N)$ time).
+  4. `EmployeeDirectoryLookup`: HashMap-based directory lookup builder optimized for frequent queries on unsorted employee lists.
+  5. `PairSumUnsorted`: Unsorted pair-with-target-sum locator using complement hash tracking.
+  6. `BestStockTrade`: Single-pass maximum profit stock trading algorithm ($O(N)$ time).
+  7. `InsertPosition`: Binary search insertion position finder for sorted arrays.
+  8. `SpiralTraversal`: Matrix spiral order traversal algorithm extracting elements in clockwise inward order.
+  9. `PairSumSorted`: Two-pointer pair sum finder leveraging pre-sorted array structures ($O(N)$ time, $O(1)$ space).
+  10. `RemoveDuplicatesSorted`: In-place duplicate removal algorithm for sorted arrays without secondary allocations ($O(1)$ extra space).
+- Implemented Assignment Problems under `src/main/java/week_11/assignment_problems_01/`, `assignment_problems_02/`, `assignment_problems_03/`, and `assignment_problems_05/`:
+  1. `HeightLineUp`: Bubble-sort-based array sorter printing line-up states after every active swap pass.
+  2. `PrizeTable`: Selection-sort-based descending order mark sorter tracking total actual swaps.
+  3. `LibraryBookShelf`: Insertion-sort-based book shelf arranger demonstrating incremental sorted placement.
+  4. `QueueOrderCheck`: Single-pass queue order validator returning the index of the first structural break.
+  5. `DiceThrowTally`: Frequency-counting sort algorithm tallying dice roll distributions from 1 to 6.
+
+**Next Session Plan:**
+- Merge `feature/session_11` into `develop` and prepare for Week 12 problem sets.
+
+**Issues Faced:**
+- Untracked obsolete session folders from git caching to maintain a clean source structure matching branch specifications.
+
+---
+
 ## Date: 16-10-2026
 **Today's Work:**
 - Completed Week 10 / Session 10 Java problem sets on the `feature/session_10` branch.
