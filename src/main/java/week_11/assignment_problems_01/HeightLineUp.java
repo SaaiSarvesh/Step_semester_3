@@ -1,4 +1,4 @@
-package week_11.class_problems;
+package week_11.assignment_problems_01;
 
 import java.util.Arrays;
 
